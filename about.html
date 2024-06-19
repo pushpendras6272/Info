@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body >
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logos.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+<!------about us content------>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Most Popular Vision University in Central India</h1>
+            <p>Sage University is an outstanding association where technology,
+                innovation and entrepreneurship combine in an influential learning environment.
+                SAGE focuses on the growth of each intellectual who is part of the institution.
+                The university also enriches the knowledge of students by encouraging them to see knowledge.
+                Our expertise is to root students and shape the next generationEncouraging the individual
+                is the key to empowerment.
+                We congratulate Sakshi Agrawal for her contribution as a remarkable female entrepreneur.
+                Mohan Yadav, Minister of Higher Education, Government of Madhya Pradesh presented the award..</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/SAGE-CAMPUS-LOOK .jpg"
+
+        </div>
+        <div class="about-col"></div>
+
+    </div>
+
+</section>
+
+<!------Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Sage University is committed to fostering academic excellence, innovative research <br> and holistic development in a dynamic and inclusive environment.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by Crazy Tutorials</p>
+
+</section>
+
+<!------javaScript for Toggle Menu------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+    
+</script>
+
+
+</body>
+</html>

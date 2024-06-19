@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body >
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logos.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Facilities Provided</h1>
+
+    </section>
+<!------Facilities----->
+
+<section class="facilities">
+    <h1>Facilities</h1>
+    <p>Sage University offers a wide range of facilities designed to promote the academic and personal development of students.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/SAGE-Libragggggggry.jpg">
+            <h3>Best Air Conditioned Peacefull Environment Library</h3>
+            <p>The Sage University Library is a cornerstone of academic life, providing a wide range of resources and services to support student and faculty research, learning and teaching.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/SAGE-SPORTS-COMPLEX.jpg">
+            <h3>Sports Complex and Large Playground</h3>
+            <p>The Sage University Sports Center is a state-of-the-art facility designed to promote student fitness, teamwork and overall well-being.
+                The Sage University Playground is a lively and well-equipped space dedicated to promoting the physical fitness and general well-being of students.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/sagecafeteria.jpg">
+            <h3>Healthy, Tasty and Delicious Food</h3>
+            <p>The Sage University College Cafeteria is a culinary delight that offers a varied and delicious selection of food for every taste. With fresh dishes, healthy salads, hearty soups and delicious desserts, the cafe guarantees quality and taste for every bite. With ample seating, a lively atmosphere and areas for group and quiet dining, it's the perfect place to relax and recharge. The menu has options for different foods. The friendly staff and hygienic environment make dining at Sage University a pleasant and enjoyable experience for all students and faculty.</p>
+        </div>
+        
+        </div>
+        <div class="row">
+            <div class="Facilities-col">
+                <h2>The facilities are:-</h2>
+                <p>1.Modern classrooms: equipped with the latest teaching aids and technology for interactive learning.</p>
+                <p>2.Advanced Labs: State-of-the-art labs for hands-on learning across disciplines.</p>
+                <p>3.Comprehensive Libraries: an extensive collection of books, journals and digital resources that support research and learning.</p>
+                <p>4.Housing: comfortable and safe apartment on campus for students.</p>
+                <p>5.Sports and Leisure: Facilities for various sports and fitness activities, including gymnasiums, courts and fields.</p>
+                <p>6.Cultural and extracurricular activities: Facilities and opportunities for cultural events, clubs and student organizations.</p>
+                <p>7.Cafes and eateries: versatile dining options for different tastes and diets.</p>
+                <p>8.Health Services: On-campus medical facilities and health support to promote student well-being.</p>
+                <p>9.Wi-Fi and IT Services: High-speed Internet access and robust IT infrastructure to meet academic and personal needs.</p>
+                <p>10.Career services: targeted support for internships, internships and career development.</p>
+                <h2>These facilities ensure that Sage University students have a varied and enriching educational experience.</h2>
+
+            </div>
+
+    </div>
+</section>
+
+<!------Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Sage University is committed to fostering academic excellence, innovative research <br> and holistic development in a dynamic and inclusive environment.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by Crazy Tutorials</p>
+
+</section>
+
+<!------javaScript for Toggle Menu------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+    
+</script>
+
+
+</body>
+</html>
